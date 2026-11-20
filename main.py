@@ -1,5 +1,5 @@
 def mac(pattern, filt):
-    "같은 위치끼리 곱해서(Multiplay) 모두 더한다(Accumulate)."""
+    """같은 위치끼리 곱해서(Multiply) 모두 더한다(Accumulate)."""
     n = len(pattern)
     total = 0.0
     for i in range(n):
